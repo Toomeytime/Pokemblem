@@ -19,7 +19,7 @@ void RemoveAllMineTraps(void) {
 
 
 
-// deal 20% more dmg 
+// deal 20% more dmg //Change this to Garydos dealing 100% damage instead of 20% -JT
 void ScaledUp(struct BattleUnit* bunitA, struct BattleUnit* bunitB) { 
 	if (SkillTester(&bunitB->unit, ScaledUpID_Link)) { 
 		if (gBattleTarget.battleDefense) { // if def isn't calculated yet, do nothing 
